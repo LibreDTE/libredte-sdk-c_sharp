@@ -35,7 +35,7 @@ namespace LibreSDK
             return this.Rest;
         }
 
-        public Rest Get<T>(String api, string jsonData, string contentType)
+        public Rest Get<T>(String api, string jsonData, string contentType = "application/json")
         {
             this.Rest.Consume<T>("/api" + api, "GET", null, contentType);
             return this.Rest;

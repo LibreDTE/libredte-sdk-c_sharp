@@ -93,7 +93,7 @@ namespace LibreSDK
 
                 var response = (HttpWebResponse)request.GetResponse();
 
-                if (method == "GET")
+                if (typeof(T).Name == "InvoiceResponse")
                 {
                     var pdfResponse = string.Empty;
 
