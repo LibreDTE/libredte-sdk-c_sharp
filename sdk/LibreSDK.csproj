@@ -45,8 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Examples\CheckStatusExample.cs" />
-    <Compile Include="Examples\GenerationExample.cs" />
     <Compile Include="LibreDTE.cs" />
     <Compile Include="Models\CheckStatusResponse.cs" />
     <Compile Include="Models\Document.cs" />
