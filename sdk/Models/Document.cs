@@ -120,6 +120,6 @@ namespace LibreSDK.Models
     {
         public Encabezado Encabezado { get; set; }
         public Detalle Detalle { get; set; }
-        public List<Referencia> Referencia { get; set; }
+        public Referencia Referencia { get; set; }
     }
 }

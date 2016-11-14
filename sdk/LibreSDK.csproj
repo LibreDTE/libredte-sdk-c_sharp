@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LibreDTE.cs" />
+    <Compile Include="Models\CheckStatusResponse.cs" />
     <Compile Include="Models\Document.cs" />
     <Compile Include="Models\DocumentResponse.cs" />
     <Compile Include="Models\InvoiceResponse.cs" />
